@@ -9,6 +9,9 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
+        String x = "Andrej";
+        
         setContentView(R.layout.activity_main);
     }
 
