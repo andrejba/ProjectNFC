@@ -2,5 +2,7 @@
     <item android:id="@+id/menu_settings"
         android:title="@string/menu_settings"
         android:orderInCategory="100"
-        android:showAsAction="never" />
+        android:showAsAction="never" android:visible="false"/>
+    <item android:id="@+id/menu_stopvideo" android:icon="@android:drawable/ic_media_pause" android:checkable="false" android:title="@string/StopVideo" android:enabled="true"></item>
+    <item android:id="@+id/menu_playvideo" android:icon="@android:drawable/ic_media_play" android:title="@string/PlayVideo"></item>
 </menu>
